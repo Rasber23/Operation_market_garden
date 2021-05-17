@@ -13,6 +13,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Operation_market_garden" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.wildfly:wildfly-client-all:14.0.1.Final" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/Operation_market_garden-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />

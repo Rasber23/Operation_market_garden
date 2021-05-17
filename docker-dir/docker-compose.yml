@@ -10,7 +10,7 @@ services:
       - DB_NAME=sample
       - DB_USER=mysql
       - DB_PASS=mysql
-      - DB_URI=db:3307
+      - DB_URI=db:3306
     depends_on:
       - db
     ports:
@@ -29,7 +29,7 @@ services:
       - ./workdir/db/init/:/docker-entrypoint-initdb.d/ # init database
       - ./workdir/db/data/:/var/lib/mysql/              # data storage
     ports:
-      - "3307:3307"
+      - "3306:3306"
 
 networks:
     default:

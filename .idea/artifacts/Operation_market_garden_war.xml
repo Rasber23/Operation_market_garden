@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Operation_market_garden-1.0-SNAPSHOT.war">
+    <root id="archive" name="Operation_market_garden-1.0-SNAPSHOT-war.war">
       <element id="artifact" artifact-name="Operation_market_garden:war exploded" />
     </root>
   </artifact>
